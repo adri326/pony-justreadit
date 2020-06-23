@@ -1,0 +1,10 @@
+{
+  "deps": [],
+  "info": {
+    "name": "justreadit",
+    "description": "Just reads files.",
+    "homepage": "https://github.com/adri326/pony-justreadit/",
+    "license": "MIT",
+    "version": "1.0"
+  }
+}

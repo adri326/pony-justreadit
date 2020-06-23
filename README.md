@@ -23,6 +23,7 @@ Add it using [corral](https://github.com/ponylang/corral):
 
 ```sh
 corral add github.com/adri326/pony-justreadit.git
+corral update
 ```
 
 Alternatively, you can just clone this repository and add `./pony-justreadit` (or whichever folder you put it in) to `ponyc`'s `--path` argument.
@@ -52,6 +53,7 @@ Remove it from corral's dependencies:
 
 ```sh
 corral remove github.com/adri326/pony-justreadit.git
+corral clean # Optional
 ```
 
 Remove any `use "justreadit"` in your code and replace the ugly `JustRead`s with your preffered method of loading files.
